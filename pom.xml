@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>no.nav</groupId>
+    <artifactId>fp</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <name>fp Meta Project</name>
+
+    <modules>
+        <module>autotest-dokumentgenerator</module>
+        <module>boot-cluster-conditionals</module>
+        <module>familie-jms-integrasjon</module>
+        <module>fbrm</module>
+        <module>foreldrepengesoknad-api</module>
+        <module>fp-abac</module>
+        <module>fp-felles</module>
+        <module>fp-konfig</module>
+        <module>fp-kontrakter</module>
+        <module>fp-nare</module>
+        <module>fp-prosesstask</module>
+        <module>fp-tidsserie</module>
+        <module>fp-uttak</module>
+        <module>fpabakus</module>
+        <module>fpabonnent</module>
+        <module>fpdokgen</module>
+        <module>fpfordel</module>
+        <module>fpformidling</module>
+        <module>fpinfo-historikk</module>
+        <module>fpinfo</module>
+        <module>fplos</module>
+        <module>fpoppdrag</module>
+        <module>fprisk</module>
+        <module>fpsak-autotest</module>
+        <module>fpsak</module>
+        <module>fpsoknad-mottak</module>
+        <module>fpsoknad-oppslag</module>
+        <module>fptilbake</module>
+        <module>ftkalkulus</module>
+        <module>svp-uttak</module>
+        <module>vtp</module>
+        <!--module>foreldrepengeoversikt</module-->
+        <!--module>foreldrepengeplanlegger</module-->
+        <!--module>foreldrepenger-inngang</module-->
+        <!--module>foreldrepengesoknad</module-->
+        <!--module>fp-engangsstonad</module-->
+        <!--module>fpsak-frontend</module-->
+        <!--module>fpsak-metrics</module-->
+        <!--module>fpsak-redis</module-->
+        <!--module>svangerskapspengesoknad</module-->
+    </modules>
+</project>
