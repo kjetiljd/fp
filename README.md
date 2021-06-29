@@ -14,7 +14,7 @@ npm install meta -g --no-save
 ```
 
 ```
-git clone git@github.com:navikt/fp.git
+git clone git@github.com:kjetiljd/fp.git
 cd fp
 make meta-update
 ```
