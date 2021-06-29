@@ -2,7 +2,7 @@
 
 Et meta-repo for alt som har noe med Foreldrepenger å gjøre.
 
-# Komme i gang
+## Komme i gang
 
 [meta](https://github.com/mateodelnorte/meta) brukes til å sette opp
 repositories for alle repoene.
