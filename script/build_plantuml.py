@@ -5,7 +5,8 @@
 # Installer grapviz (mac: brew install graphviz)
 # Installér PlantUML plugin i IntelliJ
 # Trenger Python
-# Kjøres fra rotkatalogen til prosjektet
+# Dette scriptet Kjøres fra rotkatalogen til prosjektet
+# Jeg åpner de genererte puml-filene i IntelliJ - og da får jeg preview'e diagrammet, derfra kan jeg lagre det som PNG eller SVG.
 
 import os
 import xml.etree.ElementTree as ET
