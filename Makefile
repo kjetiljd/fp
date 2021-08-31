@@ -13,8 +13,8 @@ mainline: ## Switch all repos to mainline (main/master)
 	@meta exec "git branch --all | sed 's/^[* ] //' | egrep '^main|^master' | xargs git checkout"
 
 verify: ## Run mvn verify |./gradlew build on all
+	cd fpsak-autotest/lokal-utvikling;./lokal-utvikling-fpsak.sh;cd ../..
 	@meta exec "../script/verify.sh"
 
 build: ## Run mvn clean install |./gradlew clean build
 	@meta exec "../script/build.sh"
-
