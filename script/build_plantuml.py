@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 # README
 # Installer grapviz (mac: brew install graphviz)
@@ -97,4 +98,3 @@ with open('with_multi_module.puml', 'w') as f:
     write_structure(rootPom, modules, f)
     write_dependencies(artifacts, f)
     f.write("@enduml\n")
-
